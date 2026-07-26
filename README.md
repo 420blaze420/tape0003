@@ -9,32 +9,41 @@
 <img width="1408" height="768" alt="Logical Topology" src="https://github.com/user-attachments/assets/bfc0d5d6-f04b-40e2-894c-51fe2cbe0372" />
 
 ### IP Addressing
-Mikrotik Router
+#### Mikrotik Router
 IPv4 Address . . . . . . . . . . . . . . . . . : 192.168.100.1
 
-Nitro V16 Laptop
+#### Nitro V16 Laptop
 Hostname: goerge
+
 Wireless LAN adapter Wi-Fi:
+
 Description. . . . . . . . . . . . . . . . . . : Killer(R) Wi-Fi 6E AX1675i 160MHz Wireless Network Adapter (211NGW)
+
 DHCP Enabled . . . . . . . . . . . . . . . . . : Yes
+
 Autoconfiguration Enabled. . . . . . . . . . . : Yes
+
 Link-local IPv6 Address. . . . . . . . . . . . : fe80::634b:742a:a8a6:529f%9(Preferred)
+
 IPv4 Address . . . . . . . . . . . . . . . . . : 192.168.100.129(Preferred)
+
 Subnet Mask. . . . . . . . . . . . . . . . . . : 255.255.255.0
+
 Default Gateway . . . . .  . . . . . . . . . . : 192.168.100.1
+
 DHCP Server. . . . . . . . . . . . . . . . . . : 192.168.100.1
+
 DNS Servers. . . . . . . . . . . . . . . . . . : 192.168.100.1
 
 ### Network Device Inventory
+
 #### Micro-Tik router
 
 Make: MikroTik
 
 Model: RB4011iGS+5HacQ2HnD-IN
 
-Board/FCC identifier: TV74011GS-5HQ2HD
-
-Nitro V16 Laptop
+#### Nitro V16 Laptop
 CPU
 	Intel(R) Core(TM) i7-14650HX
 
@@ -121,10 +130,19 @@ GPU 1
 
 
 ### Servers and Network Services
+Servers: N/A
 
 ### Relevant device configuration info
+MikroTik Router: ISP default configuration for home network
 
 ### Revision History
+
+| Version | Date | Time | Name |
+| --- | --- | --- | --- |
+| 0.1 | 2026-07-25 | 16:45 | Jonathan |
+| 0.5 | 2026-07-26 | 17:02 | Jonathan |
+| N/A | N/A | N/A | N/A |
+
 
 ### References to any related materials
 

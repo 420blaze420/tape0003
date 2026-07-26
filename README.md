@@ -2,13 +2,13 @@
 
 # Home Network
 
-### Physical Topology
+## Physical Topology
 <img width="1408" height="768" alt="Physical Topology" src="https://github.com/user-attachments/assets/41095ea7-06b4-4659-b710-261dfd607830" />
 
-### Logical Topology
+## Logical Topology
 <img width="1408" height="768" alt="Logical Topology" src="https://github.com/user-attachments/assets/bfc0d5d6-f04b-40e2-894c-51fe2cbe0372" />
 
-### IP Addressing
+## IP Addressing
 #### Mikrotik Router
 IPv4 Address . . . . . . . . . . . . . . . . . : 192.168.100.1
 
@@ -27,7 +27,7 @@ Default Gateway . . . . .  . . . . . . . . . . : 192.168.100.1
 DHCP Server. . . . . . . . . . . . . . . . . . : 192.168.100.1  
 DNS Servers. . . . . . . . . . . . . . . . . . : 192.168.100.1  
 
-### Network Device Inventory
+## Network Device Inventory
 
 #### Micro-Tik router
 
@@ -52,7 +52,7 @@ Processes	357
 Threads	6196  
 Handles	323138  
 
-#### Memory  
+##### Memory  
 32.0 GB DDR5  
 Speed:	5600 MT/s  
 Slots used:	2 of 4  
@@ -65,7 +65,7 @@ Paged pool	817 MB
 Non-paged pool	1.2 GB  
 In use (Compressed)	13.9 GB (1.1 GB)  
 
-Disk 0 (C:)  
+##### Disk 0 (C:)  
 NVMe HFS001TEJ9X125N  
 Capacity:	954 GB  
 Formatted:	954 GB  
@@ -77,7 +77,7 @@ Write speed	32.7 KB/s
 Active time	0%  
 Average response time	0.9 ms  
 
-WiFi  
+##### WiFi  
 Killer(R) Wi-Fi 6E AX1675i 160MHz Wireless Network Adapter (211NGW)  
 Adapter name:	Wi-Fi  
 Connection type:	802.11ac  
@@ -86,7 +86,7 @@ IPv6 address:	fe80::634b:742a:a8a6:529f%9
 Receive	8.0 Kbps  
 Send	32.0 Kbps  
 
-GPU 0  
+##### GPU 0  
 NVIDIA GeForce RTX 4060 Laptop GPU  
 Driver version:	32.0.16.1062  
 Driver date:	2026-06-11  
@@ -97,7 +97,7 @@ Dedicated GPU memory	2.0/8.0 GB
 Shared GPU memory	0.1/15.9 GB  
 GPU Memory	2.2/23.9 GB  
 
-GPU 1  
+##### GPU 1  
 Intel(R) UHD Graphics  
 Driver version:	31.0.101.4502  
 Driver date:	2023-06-15  
@@ -109,13 +109,18 @@ Shared GPU memory	0.6/15.9 GB
 GPU Memory	0.6/15.9 GB  
 
 
-### Servers and Network Services
+## Servers and Network Services
 Servers: N/A
 
-### Relevant device configuration info
+## Relevant device configuration info
 MikroTik Router: ISP default configuration for home network
 
-### Revision History
+## Method to store login credentials
+* WPA2-Personal (WPA2-PSK) security protocol.  
+* WPA2 Personal uses the IEEE 802.11i protocol.  
+* Uses a single shared password and AES encryption.  
+
+## Revision History
 
 | Version | Date | Time | Name |
 | --- | --- | --- | --- |
@@ -124,6 +129,6 @@ MikroTik Router: ISP default configuration for home network
 | N/A | N/A | N/A | N/A |
 
 
-### References to any related materials
+## References to any related materials
 
 

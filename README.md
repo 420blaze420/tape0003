@@ -35,8 +35,8 @@ DNS Servers. . . . . . . . . . . . . . . . . . : 192.168.100.1
 ## Network Device Inventory
 
 #### Optical Network Translation (ONT) Device
-Make: N/A
-Model: N/A
+Make: N/A  
+Model: N/A  
 
 #### Micro-Tik router
 

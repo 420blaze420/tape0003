@@ -113,8 +113,13 @@ GPU Memory	0.6/15.9 GB
 Servers: N/A
 
 ## Relevant device configuration info
-MikroTik Router: ISP default configuration for home network
-
+##### MikroTik Router:   
+ISP default configuration for home network.  
+Includes:
+* Firewall protections.
+* DHCP service.
+* NAT service
+  
 ## Method to store login credentials
 * WPA2-Personal (WPA2-PSK) security protocol.  
 * WPA2 Personal uses the IEEE 802.11i protocol.  

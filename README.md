@@ -3,14 +3,14 @@
 # Home Network
 
 ## Physical Topology
-Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. From here the optical signal travels over a fiber optic patch cable with an LC connector, into an OptiCore transceiver residing in the MikroTik routers 'SFP+' slot, where the optical signal is converted into an ethernet signal. From there the MikroTik router provides LAN connectivity via Wi-Fi or Ethernet. Devices may then connect to the network via Ethernet or Wi-Fi.
+Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. From here the optical signal travels over a fiber optic patch cable with an LC connector, into an OptiCore transceiver residing in the MikroTik routers 'SFP+' slot, where the optical signal is converted into an ethernet signal. From there the MikroTik router provides LAN connectivity via Wi-Fi or Ethernet. Devices may then connect to the network via Ethernet and/or Wi-Fi.
 
 
 
 <img width="1408" height="768" alt="Physical Topology" src="https://github.com/user-attachments/assets/41095ea7-06b4-4659-b710-261dfd607830" />
 
 ## Logical Topology
-Valley fiber 
+Valley fiber Winkler delivers internet service, sending optical signals over fiber cables to an ONT device. From here, the signal is sent to the MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity via Ethernet and Wi-Fi for local devices.
 
 
 <img width="1408" height="768" alt="Logical Topology" src="https://github.com/user-attachments/assets/bfc0d5d6-f04b-40e2-894c-51fe2cbe0372" />

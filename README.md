@@ -11,8 +11,7 @@ Optical signals travel from Valley Fibers Winkler network through underground fi
 ## Logical Topology
 Valley fiber Winkler delivers internet service, sending optical signals over fiber cables to an ONT device. From here, the signal is sent to the MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity via Ethernet and Wi-Fi for local devices.
 
-
-<img width="1408" height="768" alt="Logical Topology" src="https://github.com/user-attachments/assets/bfc0d5d6-f04b-40e2-894c-51fe2cbe0372" />
+<img width="1408" height="768" alt="Logical Topology (1)" src="https://github.com/user-attachments/assets/b3f5e524-15db-404b-8a2e-44497da4032a" />
 
 ## IP Addressing
 #### Mikrotik Router

@@ -37,9 +37,23 @@ Make: N/A
 Model: N/A  
 
 #### Micro-Tik router
-
 Make: MikroTik  
 Model: RB4011iGS+5HacQ2HnD-IN  
+5 GHz Wi-Fi: 802.11 ac/n  
+2.4 GHz Wi-Fi: 802.11 b/g/n
+#### Architecture 
+ARM: 32bit  
+CPU: AL21400  
+CPU core count: 4    
+CPU nominal frequency: auto (533 - 1900) MHz  
+CPU Threads count: 4  
+Switch chip model: RTL8367SB  
+Dimensions: 228 x 120 x 30 mm  
+RouterOS license: 5  
+Operating System: RouterOS v7  
+Size of RAM: 1 GB  
+Storage size: 512 MB  
+Storage type: NAND, MTBF  
 
 #### Nitro V16 Laptop
 ##### CPU  

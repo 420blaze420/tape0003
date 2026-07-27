@@ -3,11 +3,11 @@
 # Home Network
 
 ## Physical Topology
-Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver residing in my MikroTik routers 'SFP+' slot, where the optical signal is converted into an ethernet signal. From there the MikroTik router provides local devices with connectivity via Wi-Fi or Ethernet. 
+Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver inserted into my MikroTik routers 'SFP+' slot where the optical signal is converted into an ethernet signal. Now in the living room, the MikroTik router provides local devices with connectivity via 5 GHz Wi-Fi, 2.4 GHz Wi-Fi. After that my upstairs laptop is able to connect to the routers 5 GHz channel.
 <img width="1080" height="658" alt="PhysicalTop" src="https://github.com/user-attachments/assets/80ca197f-4098-4ea8-a998-7bb2d3b72c56" />
 
 ## Logical Topology
-Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi.
+Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi. My laptop is connected to the MikroTik router via its 5 GHz channel. 
 <img width="1080" height="658" alt="LogicalTop" src="https://github.com/user-attachments/assets/6e125146-fefe-4e00-95c9-0e9e88dd53b9" />
 
 
@@ -41,7 +41,8 @@ Make: MikroTik
 Model: RB4011iGS+5HacQ2HnD-IN  
 5 GHz Wi-Fi: 802.11 ac/n  
 2.4 GHz Wi-Fi: 802.11 b/g/n  
-#### Architecture 
+
+Architecture  
 ARM: 32bit  
 CPU: AL21400  
 CPU core count: 4    
@@ -54,6 +55,39 @@ Operating System: RouterOS v7
 Size of RAM: 1 GB  
 Storage size: 512 MB  
 Storage type: NAND, MTBF  
+
+Wireless  
+Wireless 5 GHz Max data rate: 1733 Mbit/s  
+Wireless 5 GHz Number of chains: 4  
+Wireless 5 GHz standards: 802.11a/n/ac  
+Antenna gain dBi for 5 GHz: 3  
+Wireless 5 GHz chip model: QCA9984  
+Wireless 5 GHz generation: Wi-Fi 5  
+Wireless 2.4 GHz Max data rate: 300 Mbit/s  
+Wireless 2.4 GHz Number of chains: 2  
+Wireless 2.4 GHz standards: 802.11b/g/n  
+Antenna gain dBi for 2.4 GHz: 3  
+Wireless 2.4 GHz chip model: R11e-2HnD  
+Wireless 2.4 GHz generation: Wi-Fi 4  
+WiFi speed: AC2000  
+Ethernet ports: 10  
+SFP+ ports: 1  
+MiniPCI-e slots: 1  
+Serial console port: RJ45  
+
+Power  
+Number of DC inputs: 2 (DC jack, PoE-IN)  
+DC jack input Voltage: 12-57 V  
+Max power consumption: 44 W  
+Max power consumption without attachments: 23 W  
+PoE in: Passive PoE  
+Cooling type: Passive  
+PoE in input Voltage: 18-57 V  
+PoE-out ports: Ether10  
+PoE out: Passive PoE up to 57V  
+Low voltage PoE-Out current limit: 600 mA  
+High voltage PoE-Out current limit: 420 mA  
+Max total out (A): 600 mA  
 
 #### Nitro V16 Laptop
 ##### CPU  
@@ -131,9 +165,16 @@ GPU Memory	0.6/15.9 GB
 
 
 ## Servers and Network Services
-Servers: N/A
+Servers: N/A  
 
-## Relevant device configuration info
+MikroTik router:  
+
+Default ISP configuration includes:
+* Firewall protections.
+* DHCP service.
+* NAT service
+
+## Relevant device configuration info  
 ##### MikroTik Router:   
 ISP default configuration for home network.  
 Includes:

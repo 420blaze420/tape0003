@@ -32,6 +32,9 @@ Default Gateway . . . . .  . . . . . . . . . . : 192.168.100.1
 DHCP Server. . . . . . . . . . . . . . . . . . : 192.168.100.1  
 DNS Servers. . . . . . . . . . . . . . . . . . : 192.168.100.1  
 
+#### Google Pixel 10
+Hostname: Pixel 10
+
 ## Network Device Inventory
 
 #### Optical Network Translation (ONT) Device
@@ -44,7 +47,7 @@ Model: RB4011iGS+5HacQ2HnD-IN
 5 GHz Wi-Fi: 802.11 ac/n  
 2.4 GHz Wi-Fi: 802.11 b/g/n  
 
-Architecture  
+##### Architecture  
 ARM: 32bit  
 CPU: AL21400  
 CPU core count: 4    
@@ -58,7 +61,7 @@ Size of RAM: 1 GB
 Storage size: 512 MB  
 Storage type: NAND, MTBF  
 
-Wireless  
+##### Wireless  
 Wireless 5 GHz Max data rate: 1733 Mbit/s  
 Wireless 5 GHz Number of chains: 4  
 Wireless 5 GHz standards: 802.11a/n/ac  
@@ -77,7 +80,7 @@ SFP+ ports: 1
 MiniPCI-e slots: 1  
 Serial console port: RJ45  
 
-Power  
+##### Power  
 Number of DC inputs: 2 (DC jack, PoE-IN)  
 DC jack input Voltage: 12-57 V  
 Max power consumption: 44 W  
@@ -92,6 +95,9 @@ High voltage PoE-Out current limit: 420 mA
 Max total out (A): 600 mA  
 
 #### Nitro V16 Laptop
+Make:
+Model:
+Operating System: Windows 11 Home
 ##### CPU  
 Intel(R) Core(TM) i7-14650HX  
 Base speed:	2.20 GHz  
@@ -165,6 +171,15 @@ Dedicated GPU memory	2.1/8.0 GB
 Shared GPU memory	0.6/15.9 GB  
 GPU Memory	0.6/15.9 GB  
 
+#### Google Pixel 10
+Model: Pixel 10  
+Operating System:  
+Android Version: 16  
+Build #: CP1A.260505.005  
+Memory: 16 GB Ram  
+Storage: 128 GB  
+Processor: Google Tensor G5, Titan M2 security coprocessor  
+
 ## Servers and Network Services
 Servers: N/A  
 
@@ -199,6 +214,6 @@ Includes:
 
 ## References to any related materials
 ##### Link to router product page
-https://mikrotik.com/product/rb4011igs_5hacq2hnd_in
-
-
+https://mikrotik.com/product/rb4011igs_5hacq2hnd_in  
+https://support.google.com/pixelphone/answer/7158570?hl=en#zippy=%2Cpixel  
+https://store.google.com/us/product/pixel_10_specs?hl=en-US&pli=1  

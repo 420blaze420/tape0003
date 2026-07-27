@@ -3,12 +3,13 @@
 # Home Network
 
 ## Physical Topology
-Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver inserted into my MikroTik routers 'SFP+' slot where the optical signal is converted into an ethernet signal. Now in the living room, the MikroTik router provides local devices with connectivity via 5 GHz Wi-Fi, 2.4 GHz Wi-Fi. After that my upstairs laptop is able to connect to the routers 5 GHz channel.
+Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver inserted into my MikroTik routers 'SFP+' slot where the optical signal is converted into an ethernet signal. Now in the living room, the MikroTik router provides local devices with connectivity via 5 GHz Wi-Fi, 2.4 GHz Wi-Fi. After that my upstairs laptop is able to connect to the routers 5 GHz channel.  
 <img width="830" height="1085" alt="Home Network Physical Topology drawio" src="https://github.com/user-attachments/assets/bccc01af-4d1f-419b-94d9-13bbd0986462" />
 
 
 ## Logical Topology
-Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi. My laptop is connected to the MikroTik router via its 5 GHz channel. 
+Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi. My laptop is connected to the MikroTik router via its 5 GHz channel.  
+PLACEHOLDER IMAGE  
 <img width="1080" height="658" alt="LogicalTop" src="https://github.com/user-attachments/assets/6e125146-fefe-4e00-95c9-0e9e88dd53b9" />
 
 

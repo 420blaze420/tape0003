@@ -56,7 +56,7 @@ CPU nominal frequency: auto (533 - 1900) MHz
 CPU Threads count: 4  
 Switch chip model: RTL8367SB  
 Dimensions: 228 x 120 x 30 mm  
-RouterOS license: 5  
+Router OS: license: 5  
 Operating System: RouterOS v7  
 Size of RAM: 1 GB  
 Storage size: 512 MB  
@@ -96,8 +96,7 @@ High voltage PoE-Out current limit: 420 mA
 Max total out (A): 600 mA  
 
 #### Nitro V16 Laptop
-Make:
-Model:
+Model #: AN16-73
 Operating System: Windows 11 Home
 ##### CPU  
 Intel(R) Core(TM) i7-14650HX  
@@ -105,16 +104,16 @@ Base speed:	2.20 GHz
 Sockets:	1  
 Cores:	16  
 Logical processors:	24  
-Virtualisation:	Enabled  
+Virtualization:	Enabled  
 L1 cache:	1.4 MB  
 L2 cache:	24.0 MB  
 L3 cache:	30.0 MB  
-Utilisation	4%  
-Speed	3.91 GHz  
-Up time	0:04:35:20  
-Processes	357  
-Threads	6196  
-Handles	323138  
+Utilization:	4%  
+Speed:	3.91 GHz  
+Up time:	0:04:35:20  
+Processes:	357  
+Threads:	6196  
+Handles:	323138  
 
 ##### Memory  
 32.0 GB DDR5  
@@ -122,12 +121,12 @@ Speed:	5600 MT/s
 Slots used:	2 of 4  
 Form factor:	SODIMM  
 Hardware reserved:	296 MB  
-Available	17.8 GB  
-Cached	15.3 GB  
-Committed	19.6/33.7 GB  
-Paged pool	817 MB  
-Non-paged pool	1.2 GB  
-In use (Compressed)	13.9 GB (1.1 GB)  
+Available:	17.8 GB  
+Cached:	15.3 GB  
+Committed:	19.6/33.7 GB  
+Paged pool:	817 MB  
+Non-paged pool:	1.2 GB  
+In use (Compressed):	13.9 GB (1.1 GB)  
 
 ##### Disk 0 (C:)  
 NVMe HFS001TEJ9X125N  
@@ -136,10 +135,10 @@ Formatted:	954 GB
 System disk:	Yes  
 Page file:	Yes  
 Type:	SSD  
-Read speed	0 KB/s  
-Write speed	32.7 KB/s  
-Active time	0%  
-Average response time	0.9 ms  
+Read speed:	0 KB/s  
+Write speed:	32.7 KB/s  
+Active time:	0%  
+Average response time:	0.9 ms  
 
 ##### WiFi  
 Killer(R) Wi-Fi 6E AX1675i 160MHz Wireless Network Adapter (211NGW)  
@@ -147,8 +146,8 @@ Adapter name:	Wi-Fi
 Connection type:	802.11ac  
 IPv4 address:	192.168.100.129  
 IPv6 address:	fe80::634b:742a:a8a6:529f%9  
-Receive	8.0 Kbps  
-Send	32.0 Kbps  
+Receive:	8.0 Kbps  
+Send:	32.0 Kbps  
 
 ##### GPU 0  
 NVIDIA GeForce RTX 4060 Laptop GPU  
@@ -156,10 +155,10 @@ Driver version:	32.0.16.1062
 Driver date:	2026-06-11  
 DirectX version:	12 (FL 12.2)  
 Physical location:	PCI bus 1, device 0, function 0  
-Utilisation	11%  
-Dedicated GPU memory	2.0/8.0 GB  
-Shared GPU memory	0.1/15.9 GB  
-GPU Memory	2.2/23.9 GB  
+Utilisation:	11%  
+Dedicated GPU memory:	2.0/8.0 GB  
+Shared GPU memory:	0.1/15.9 GB  
+GPU Memory:	2.2/23.9 GB  
 
 ##### GPU 1  
 Intel(R) UHD Graphics  
@@ -167,14 +166,14 @@ Driver version:	31.0.101.4502
 Driver date:	2023-06-15  
 DirectX version:	12 (FL 12.1)  
 Physical location:	PCI bus 0, device 2, function 0  
-Utilisation	5%  
-Dedicated GPU memory	2.1/8.0 GB  
-Shared GPU memory	0.6/15.9 GB  
-GPU Memory	0.6/15.9 GB  
+Utilisation:	5%  
+Dedicated GPU memory:	2.1/8.0 GB  
+Shared GPU memory:	0.6/15.9 GB  
+GPU Memory:	0.6/15.9 GB  
 
 #### Google Pixel 10
 Model: Pixel 10  
-Operating System:  
+Operating System: Android
 Android Version: 16  
 Build #: CP1A.260505.005  
 Memory: 16 GB Ram  

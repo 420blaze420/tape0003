@@ -7,7 +7,7 @@ Optical signals travel from Valley Fibers Winkler network through underground fi
 <img width="1080" height="658" alt="PhysicalTop" src="https://github.com/user-attachments/assets/80ca197f-4098-4ea8-a998-7bb2d3b72c56" />
 
 ## Logical Topology
-Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via Wi-Fi.
+Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi.
 <img width="1080" height="658" alt="LogicalTop" src="https://github.com/user-attachments/assets/6e125146-fefe-4e00-95c9-0e9e88dd53b9" />
 
 
@@ -40,7 +40,7 @@ Model: N/A
 Make: MikroTik  
 Model: RB4011iGS+5HacQ2HnD-IN  
 5 GHz Wi-Fi: 802.11 ac/n  
-2.4 GHz Wi-Fi: 802.11 b/g/n
+2.4 GHz Wi-Fi: 802.11 b/g/n  
 #### Architecture 
 ARM: 32bit  
 CPU: AL21400  

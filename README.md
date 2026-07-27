@@ -96,8 +96,8 @@ High voltage PoE-Out current limit: 420 mA
 Max total out (A): 600 mA  
 
 #### Nitro V16 Laptop
-Model #: AN16-73
-Operating System: Windows 11 Home
+Model: AN16-73  
+Operating System: Windows 11 Home  
 ##### CPU  
 Intel(R) Core(TM) i7-14650HX  
 Base speed:	2.20 GHz  

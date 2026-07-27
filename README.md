@@ -3,13 +3,11 @@
 # Home Network
 
 ## Physical Topology
-Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. From here the optical signal travels over a fiber optic patch cable with an LC connector, into an OptiCore transceiver residing in the MikroTik routers 'SFP+' slot, where the optical signal is converted into an ethernet signal. From there the MikroTik router provides LAN connectivity via Wi-Fi or Ethernet. Devices may then connect to the network via Ethernet and/or Wi-Fi.
+Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver residing in my MikroTik routers 'SFP+' slot, where the optical signal is converted into an ethernet signal. From there the MikroTik router provides local devices with connectivity via Wi-Fi or Ethernet. 
 <img width="1080" height="658" alt="PhysicalTop" src="https://github.com/user-attachments/assets/80ca197f-4098-4ea8-a998-7bb2d3b72c56" />
 
-
-
 ## Logical Topology
-Valley fiber Winkler delivers internet service, sending optical signals over fiber cables to an ONT device. From here, the signal is sent to the MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity via Ethernet and Wi-Fi for local devices.
+Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via Wi-Fi.
 <img width="1080" height="658" alt="LogicalTop" src="https://github.com/user-attachments/assets/6e125146-fefe-4e00-95c9-0e9e88dd53b9" />
 
 
@@ -144,5 +142,7 @@ Includes:
 
 
 ## References to any related materials
+##### Link to router product page
+https://mikrotik.com/product/rb4011igs_5hacq2hnd_in
 
 

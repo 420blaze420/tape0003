@@ -9,8 +9,7 @@ Optical signals travel from Valley Fibers Winkler network through underground fi
 
 ## Logical Topology
 Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi. My laptop is connected to the MikroTik router via its 5 GHz channel.  
-PLACEHOLDER IMAGE  
-<img width="1080" height="658" alt="LogicalTop" src="https://github.com/user-attachments/assets/6e125146-fefe-4e00-95c9-0e9e88dd53b9" />
+<img width="1288" height="602" alt="Home Network Logical Topology drawio" src="https://github.com/user-attachments/assets/03ef4bc0-7250-46e4-99a8-75f303718c84" />
 
 
 ## IP Addressing
@@ -33,7 +32,9 @@ DHCP Server. . . . . . . . . . . . . . . . . . : 192.168.100.1
 DNS Servers. . . . . . . . . . . . . . . . . . : 192.168.100.1  
 
 #### Google Pixel 10
-Hostname: Pixel 10
+Hostname: Pixel 10  
+IPv4 Address: 192.168.100.110  
+IPv6 Address: fe80::8df:6fff:fe93:3bf2  
 
 ## Network Device Inventory
 

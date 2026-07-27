@@ -163,7 +163,6 @@ Dedicated GPU memory	2.1/8.0 GB
 Shared GPU memory	0.6/15.9 GB  
 GPU Memory	0.6/15.9 GB  
 
-
 ## Servers and Network Services
 Servers: N/A  
 
@@ -193,7 +192,7 @@ Includes:
 | --- | --- | --- | --- |
 | 0.1 | 2026-07-25 | 16:45 | Jonathan |
 | 0.5 | 2026-07-26 | 17:02 | Jonathan |
-| N/A | N/A | N/A | N/A |
+| 1.0 | 2026-07-27 | N/A | Jonathan |
 
 
 ## References to any related materials

@@ -6,11 +6,9 @@
 Optical signals travel from Valley Fibers Winkler network through underground fiber cables into my front yard, where the fiber cable connects to an Optical Network Termination (ONT) device. Through the siding and inside, the optical signal travels over a fiber optic patch cable with an LC connector, connected an OptiCore transceiver inserted into my MikroTik routers 'SFP+' slot where the optical signal is converted into an ethernet signal. Now in the living room, the MikroTik router provides local devices with connectivity via 5 GHz Wi-Fi, 2.4 GHz Wi-Fi. After that my upstairs laptop is able to connect to the routers 5 GHz channel.  
 <img width="830" height="1085" alt="Home Network Physical Topology drawio" src="https://github.com/user-attachments/assets/bccc01af-4d1f-419b-94d9-13bbd0986462" />
 
-
 ## Logical Topology
 Valley fiber Winkler sends optical signals over fiber cables to an ONT device in my network. From there, the signal is sent over fiber patch cable to my MikroTik router through an SFP+ OptiCore transceiver where the optical signal is converted to an ethernet signal. The MikroTik router provides LAN connectivity for all local devices via 5 GHz or 2.4 GHz Wi-Fi. My laptop is connected to the MikroTik router via its 5 GHz channel.  
 <img width="1288" height="602" alt="Home Network Logical Topology drawio" src="https://github.com/user-attachments/assets/03ef4bc0-7250-46e4-99a8-75f303718c84" />
-
 
 ## IP Addressing
 #### Mikrotik Router
@@ -180,23 +178,16 @@ Memory: 16 GB Ram
 Storage: 128 GB  
 Processor: Google Tensor G5, Titan M2 security coprocessor  
 
-## Servers and Network Services
-Servers: N/A  
-
+## Network Services
 MikroTik router:  
-
-Default ISP configuration includes:
+Services provided include:
 * Firewall protections.
 * DHCP service.
-* NAT service
+* NAT service.
 
 ## Relevant device configuration info  
 ##### MikroTik Router:   
-ISP default configuration for home network.  
-Includes:
-* Firewall protections.
-* DHCP service.
-* NAT service
+ISP default configuration for standard home network.  
   
 ## Method to store login credentials
 * WPA2-Personal (WPA2-PSK) security protocol.  
@@ -209,8 +200,7 @@ Includes:
 | --- | --- | --- | --- |
 | 0.1 | 2026-07-25 | 16:45 | Jonathan |
 | 0.5 | 2026-07-26 | 17:02 | Jonathan |
-| 1.0 | 2026-07-27 | N/A | Jonathan |
-
+| 1.0 | 2026-07-27 | 23:03 | Jonathan |
 
 ## References to any related materials
 ##### Link to router product page
